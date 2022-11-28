@@ -38,6 +38,9 @@
                                             <color key="titleColor" name="primary-text-color"/>
                                             <color key="titleShadowColor" name="primary-text-color"/>
                                         </state>
+                                        <connections>
+                                            <action selector="cButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IeF-03-lrf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Grh-q3-e5q">
                                         <rect key="frame" x="196.66666666666666" y="0.0" width="96.999999999999972" height="128"/>
@@ -374,6 +377,10 @@
                             <constraint firstItem="Kso-wa-5RH" firstAttribute="height" secondItem="nIn-2D-Sua" secondAttribute="height" id="y6y-wU-g1k"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cButton" destination="ouN-ve-nqf" id="jQp-tw-WDU"/>
+                        <outlet property="monitorLabel" destination="vLZ-q3-NF3" id="Hr0-7V-0SC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
